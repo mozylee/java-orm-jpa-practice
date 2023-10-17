@@ -25,7 +25,7 @@ import practice.jpa1.type.OrderStatus;
 @NoArgsConstructor
 @Table(name = "orders")
 @Entity
-public class Order {
+public class Order extends BaseEntity {
 
     @Id
     @GeneratedValue

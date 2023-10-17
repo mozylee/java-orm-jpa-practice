@@ -8,6 +8,9 @@
         <class>practice.jpa1.domain.Order</class>
         <class>practice.jpa1.domain.OrderItem</class>
         <class>practice.jpa1.domain.Item</class>
+        <class>practice.jpa1.domain.Album</class>
+        <class>practice.jpa1.domain.Book</class>
+        <class>practice.jpa1.domain.Movie</class>
         <class>practice.jpa1.domain.Delivery</class>
         <class>practice.jpa1.domain.Category</class>
 

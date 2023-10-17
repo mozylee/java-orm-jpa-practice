@@ -17,7 +17,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Table(name = "MEMBER")
 @Entity
-public class Member {
+public class Member extends BaseEntity {
 
     @Id
     @GeneratedValue

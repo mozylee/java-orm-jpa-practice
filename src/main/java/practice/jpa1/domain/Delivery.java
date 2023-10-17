@@ -18,7 +18,7 @@ import practice.jpa1.type.DeliveryStatus;
 @Getter
 @NoArgsConstructor
 @Entity
-public class Delivery {
+public class Delivery extends BaseEntity {
 
     @Id
     @GeneratedValue
