@@ -1,6 +1,7 @@
 package practice.jpa1.domain;
 
 import javax.persistence.Column;
+import javax.persistence.Embedded;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
@@ -26,11 +27,8 @@ public class Delivery extends BaseEntity {
     @Column(name = "DELIVERY_ID")
     private Long id;
 
-    private String city;
-
-    private String street;
-
-    private String zipcode;
+    @Embedded
+    private Address address;
 
     @Enumerated(EnumType.STRING)
     private DeliveryStatus deliveryStatus;
